@@ -1,23 +1,24 @@
-# Stress & Emotion Detector (Webcam + Streamlit)
+# 📦 Streamlit Cloud Safe Version – Face Box Only
 
-This app uses DeepFace and dlib to detect emotion and stress in real time from webcam video.
+This is the lightweight version of the Real-Time Stress & Emotion Detector.
 
-## How to Use
+✅ Works on [Streamlit Cloud](https://streamlit.io/cloud)  
+❌ No `dlib`, `deepface`, or emotion/stress features (Cloud blocks compilation)
 
-1. Deploy on [Streamlit Cloud](https://streamlit.io/cloud)
-2. Upload this repo to GitHub
-3. Create a new app pointing to `streamlit_app.py`
+## 🚀 How to Deploy
 
-## Features
+1. Upload this repo to GitHub
+2. Go to [https://streamlit.io/cloud](https://streamlit.io/cloud)
+3. Click "New App", select this repo and `streamlit_app.py`
+4. Deploy 🎉
 
-- Real-time face detection
-- Emotion classification (DeepFace)
-- Eye aspect ratio–based stress detection
-- Auto-downloads `shape_predictor_68_face_landmarks.dat` from Google Drive
+## 🧠 Want the Full Version?
 
-## Requirements
+Use Render.com or run locally:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_full.txt
 streamlit run streamlit_app.py
 ```
+
+Then uncomment emotion/stress logic inside the app.
