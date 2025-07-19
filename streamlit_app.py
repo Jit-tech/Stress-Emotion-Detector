@@ -8,7 +8,6 @@ from deepface import DeepFace
 import gdown
 import os
 
-# Download face landmark model if not already present
 def download_predictor():
     file_id = "1TK2XoVcKTTei3MjFVpuHQuXiFLxN-G0F"
     output = "shape_predictor_68_face_landmarks.dat"
